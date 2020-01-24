@@ -1,0 +1,126 @@
+@media only screen and (max-width: 961px) {
+    #hideLessThan961 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 0px) {
+    .ocultarAmbos {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 995px) {
+    .mostrarAmbos {
+        display: contents;
+    }
+}
+
+@media only screen and (min-width: 0px) {
+    .mostrarAcordeon {
+        display: contents;
+    }
+}
+
+@media only screen and (min-width: 995px) {
+    .ocultarAcordeon {
+        display: none;
+    }
+}
+
+html {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.margenesLogin{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    margin-left:4%;
+}
+
+.social_icon span{
+    font-size: 45px;
+    margin-left: 10px;
+    color: #FFC312;
+}
+
+.social_icon span:hover{
+    color: #0098DA;
+    cursor: pointer;
+}
+
+.azulMaesstria{
+    color: #1C6399;
+}
+
+.social_icon{
+    position: absolute;
+    right: 8px;
+    top: -32px;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: #FFC312;
+    color: black;
+    border:0 !important;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+
+.login_btn{
+    color: black;
+    background-color: #FFC312;
+    width: 100px;
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: #0098DA;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}
+
+.logoNavBar {
+    height: 34px;
+}
+
+.marginTop {
+    margin-top:1%
+}
+
+.bold {
+    font-weight: bolder;
+    color:black;
+}
+
+.sst{
+    color:#F58634;
+}
+
+footer {
+    margin-top:40px;
+}
+
+.marginBorderPopUp {
+    max-width: 60%;
+}
+
+.botonRegistroPopUP {
+    margin-bottom: 2%;
+}
+
+p {
+    text-align: justify
+}
